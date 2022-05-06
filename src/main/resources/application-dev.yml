@@ -1,0 +1,13 @@
+server:
+  port: 8089
+
+spring:
+  datasource:
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+    url: jdbc:mysql://localhost:3306/checkin
+    username: root
+    password: phamviettu
+  jpa.properties.hibernate.dialect: org.hibernate.dialect.MySQL55Dialect
+

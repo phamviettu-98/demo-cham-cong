@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: 'dev'
+
+connection:
+  url: 
+    get-article-video: /cms/video/active
+    update-article-video: /cms/video
